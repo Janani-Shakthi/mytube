@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+
+body{
+
+    background:#0f0f0f;
+    color:white;
+
+}
+
+
+
+/* Header */
+
+header{
+
+    height:80px;
+    display:flex;
+    align-items:center;
+    padding:0 50px;
+    background:#111;
+    border-bottom:1px solid #333;
+
+}
+
+
+.logo{
+
+    font-size:32px;
+    font-weight:800;
+    color:#670505;
+
+}
+
+
+.logo span{
+
+    color:white;
+
+}
+
+
+
+/* Hero Section */
+
+
+.hero{
+
+    margin:30px 50px;
+    padding:45px;
+
+    border-radius:20px;
+
+    background:
+    linear-gradient(135deg,#ff0000,#720000);
+
+}
+
+
+.hero h1{
+
+    font-size:45px;
+    margin-bottom:10px;
+
+}
+
+
+.hero p{
+
+    font-size:18px;
+
+    color:#eee;
+
+}
+
+
+
+
+
+/* Videos */
+
+
+.container{
+
+    padding:20px 50px;
+
+}
+
+
+.section-title{
+
+    font-size:28px;
+    margin-bottom:25px;
+
+}
+
+
+
+.videos{
+
+    display:grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap:100px;
+
+}
+
+
+
+
+/* Video Card */
+
+
+.video-card{
+
+    background:#181818;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    transition:0.3s;
+
+}
+
+
+
+.video-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+
+/* Youtube Player */
+
+
+.video-card iframe{
+
+    width:100%;
+    height:500px;
+    border:none;
+
+}
+
+
+
+/* Info */
+
+
+.info{
+
+    padding:18px;
+
+}
+
+
+.info h3{
+
+    font-size:18px;
+
+    margin-bottom:10px;
+
+}
+
+
+.info p{
+
+    color:#aaa;
+
+    font-size:14px;
+
+}
